@@ -1,6 +1,6 @@
 # Audit
 
-## How to build
+## BUILD
 ```bash
 mkdir ./build
 cd ./build
@@ -8,8 +8,8 @@ cmake ..
 make
 ```
 
-## How to run
-You should run __Audit__ in sudo mode
+## RUN
+(only in __sudo__ mode)
 ```bash
 sudo ./Audit <pid>
 ```
@@ -18,7 +18,7 @@ or
 sudo ./Audit `pidof <process name>`
 ```
 
-## How to filter logs
+## LOG FILTER
 ```bash
-cat ./audit.log | grep "\[39033\]"
+cat ./audit.log | grep "\[<pid>\]"
 ```

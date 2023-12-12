@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Audit.dir/src/main.cpp.o CMakeFiles/Audit.dir/src/logger.cpp.o -o Audit 

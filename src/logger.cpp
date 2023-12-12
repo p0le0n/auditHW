@@ -2,7 +2,6 @@
 #include <filesystem>
 #include <sstream>
 
-// https://chromium.googlesource.com/chromiumos/docs/+/master/constants/syscalls.md#tables
 std::map<unsigned long long, std::string> Logger::syscall_names = {
     { 0, "read" },
     { 1, "write" },

@@ -1,0 +1,3 @@
+/home/leo/Desktop/audit/build/CMakeFiles/Audit.dir
+/home/leo/Desktop/audit/build/CMakeFiles/edit_cache.dir
+/home/leo/Desktop/audit/build/CMakeFiles/rebuild_cache.dir
