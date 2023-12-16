@@ -8,7 +8,9 @@ cmake ..
 make
 ```
 
-## RUN
+## IN _/build_ DIRECTORY:
+
+### RUN
 (only in __sudo__ mode)
 ```bash
 sudo ./Audit <pid>
@@ -18,7 +20,7 @@ or
 sudo ./Audit `pidof <process name>`
 ```
 
-## LOG FILTER
+### LOG FILTER
 ```bash
 cat ./audit.log | grep "\[<pid>\]"
 ```
